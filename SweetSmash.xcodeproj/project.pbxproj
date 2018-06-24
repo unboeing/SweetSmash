@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91FCF95F20E043D600501749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCF95E20E043D600501749 /* AppDelegate.swift */; };
+		91FCF96120E043D600501749 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91FCF96020E043D600501749 /* GameScene.sks */; };
+		91FCF96320E043D600501749 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 91FCF96220E043D600501749 /* Actions.sks */; };
+		91FCF96520E043D600501749 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCF96420E043D600501749 /* GameScene.swift */; };
+		91FCF96720E043D600501749 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCF96620E043D600501749 /* GameViewController.swift */; };
+		91FCF96A20E043D600501749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FCF96820E043D600501749 /* Main.storyboard */; };
+		91FCF96C20E043D700501749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FCF96B20E043D700501749 /* Assets.xcassets */; };
+		91FCF96F20E043D700501749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FCF96D20E043D700501749 /* LaunchScreen.storyboard */; };
+		91FCF97A20E043D700501749 /* SweetSmashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCF97920E043D700501749 /* SweetSmashTests.swift */; };
+		91FCF98520E043D700501749 /* SweetSmashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCF98420E043D700501749 /* SweetSmashUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FCF97620E043D700501749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FCF95320E043D600501749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FCF95A20E043D600501749;
+			remoteInfo = SweetSmash;
+		};
+		91FCF98120E043D700501749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FCF95320E043D600501749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FCF95A20E043D600501749;
+			remoteInfo = SweetSmash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91FCF95B20E043D600501749 /* SweetSmash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SweetSmash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FCF95E20E043D600501749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91FCF96020E043D600501749 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		91FCF96220E043D600501749 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		91FCF96420E043D600501749 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		91FCF96620E043D600501749 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		91FCF96920E043D600501749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91FCF96B20E043D700501749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FCF96E20E043D700501749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91FCF97020E043D700501749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FCF97520E043D700501749 /* SweetSmashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetSmashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FCF97920E043D700501749 /* SweetSmashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetSmashTests.swift; sourceTree = "<group>"; };
+		91FCF97B20E043D700501749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FCF98020E043D700501749 /* SweetSmashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetSmashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FCF98420E043D700501749 /* SweetSmashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetSmashUITests.swift; sourceTree = "<group>"; };
+		91FCF98620E043D700501749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FCF95820E043D600501749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FCF97220E043D700501749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FCF97D20E043D700501749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FCF95220E043D600501749 = {
+			isa = PBXGroup;
+			children = (
+				91FCF95D20E043D600501749 /* SweetSmash */,
+				91FCF97820E043D700501749 /* SweetSmashTests */,
+				91FCF98320E043D700501749 /* SweetSmashUITests */,
+				91FCF95C20E043D600501749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FCF95C20E043D600501749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FCF95B20E043D600501749 /* SweetSmash.app */,
+				91FCF97520E043D700501749 /* SweetSmashTests.xctest */,
+				91FCF98020E043D700501749 /* SweetSmashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FCF95D20E043D600501749 /* SweetSmash */ = {
+			isa = PBXGroup;
+			children = (
+				91FCF95E20E043D600501749 /* AppDelegate.swift */,
+				91FCF96020E043D600501749 /* GameScene.sks */,
+				91FCF96220E043D600501749 /* Actions.sks */,
+				91FCF96420E043D600501749 /* GameScene.swift */,
+				91FCF96620E043D600501749 /* GameViewController.swift */,
+				91FCF96820E043D600501749 /* Main.storyboard */,
+				91FCF96B20E043D700501749 /* Assets.xcassets */,
+				91FCF96D20E043D700501749 /* LaunchScreen.storyboard */,
+				91FCF97020E043D700501749 /* Info.plist */,
+			);
+			path = SweetSmash;
+			sourceTree = "<group>";
+		};
+		91FCF97820E043D700501749 /* SweetSmashTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FCF97920E043D700501749 /* SweetSmashTests.swift */,
+				91FCF97B20E043D700501749 /* Info.plist */,
+			);
+			path = SweetSmashTests;
+			sourceTree = "<group>";
+		};
+		91FCF98320E043D700501749 /* SweetSmashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FCF98420E043D700501749 /* SweetSmashUITests.swift */,
+				91FCF98620E043D700501749 /* Info.plist */,
+			);
+			path = SweetSmashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FCF95A20E043D600501749 /* SweetSmash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FCF98920E043D700501749 /* Build configuration list for PBXNativeTarget "SweetSmash" */;
+			buildPhases = (
+				91FCF95720E043D600501749 /* Sources */,
+				91FCF95820E043D600501749 /* Frameworks */,
+				91FCF95920E043D600501749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SweetSmash;
+			productName = SweetSmash;
+			productReference = 91FCF95B20E043D600501749 /* SweetSmash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FCF97420E043D700501749 /* SweetSmashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FCF98C20E043D700501749 /* Build configuration list for PBXNativeTarget "SweetSmashTests" */;
+			buildPhases = (
+				91FCF97120E043D700501749 /* Sources */,
+				91FCF97220E043D700501749 /* Frameworks */,
+				91FCF97320E043D700501749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FCF97720E043D700501749 /* PBXTargetDependency */,
+			);
+			name = SweetSmashTests;
+			productName = SweetSmashTests;
+			productReference = 91FCF97520E043D700501749 /* SweetSmashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91FCF97F20E043D700501749 /* SweetSmashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FCF98F20E043D700501749 /* Build configuration list for PBXNativeTarget "SweetSmashUITests" */;
+			buildPhases = (
+				91FCF97C20E043D700501749 /* Sources */,
+				91FCF97D20E043D700501749 /* Frameworks */,
+				91FCF97E20E043D700501749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FCF98220E043D700501749 /* PBXTargetDependency */,
+			);
+			name = SweetSmashUITests;
+			productName = SweetSmashUITests;
+			productReference = 91FCF98020E043D700501749 /* SweetSmashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FCF95320E043D600501749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alecu Truica";
+				TargetAttributes = {
+					91FCF95A20E043D600501749 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					91FCF97420E043D700501749 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 91FCF95A20E043D600501749;
+					};
+					91FCF97F20E043D700501749 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 91FCF95A20E043D600501749;
+					};
+				};
+			};
+			buildConfigurationList = 91FCF95620E043D600501749 /* Build configuration list for PBXProject "SweetSmash" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FCF95220E043D600501749;
+			productRefGroup = 91FCF95C20E043D600501749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FCF95A20E043D600501749 /* SweetSmash */,
+				91FCF97420E043D700501749 /* SweetSmashTests */,
+				91FCF97F20E043D700501749 /* SweetSmashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FCF95920E043D600501749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FCF96A20E043D600501749 /* Main.storyboard in Resources */,
+				91FCF96120E043D600501749 /* GameScene.sks in Resources */,
+				91FCF96C20E043D700501749 /* Assets.xcassets in Resources */,
+				91FCF96F20E043D700501749 /* LaunchScreen.storyboard in Resources */,
+				91FCF96320E043D600501749 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FCF97320E043D700501749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FCF97E20E043D700501749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FCF95720E043D600501749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FCF96520E043D600501749 /* GameScene.swift in Sources */,
+				91FCF96720E043D600501749 /* GameViewController.swift in Sources */,
+				91FCF95F20E043D600501749 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FCF97120E043D700501749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FCF97A20E043D700501749 /* SweetSmashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FCF97C20E043D700501749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FCF98520E043D700501749 /* SweetSmashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FCF97720E043D700501749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FCF95A20E043D600501749 /* SweetSmash */;
+			targetProxy = 91FCF97620E043D700501749 /* PBXContainerItemProxy */;
+		};
+		91FCF98220E043D700501749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FCF95A20E043D600501749 /* SweetSmash */;
+			targetProxy = 91FCF98120E043D700501749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FCF96820E043D600501749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FCF96920E043D600501749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91FCF96D20E043D700501749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FCF96E20E043D700501749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FCF98720E043D700501749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FCF98820E043D700501749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FCF98A20E043D700501749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TB2V3PEYJ;
+				INFOPLIST_FILE = SweetSmash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bufni.SweetSmash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FCF98B20E043D700501749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TB2V3PEYJ;
+				INFOPLIST_FILE = SweetSmash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bufni.SweetSmash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91FCF98D20E043D700501749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TB2V3PEYJ;
+				INFOPLIST_FILE = SweetSmashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bufni.SweetSmashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetSmash.app/SweetSmash";
+			};
+			name = Debug;
+		};
+		91FCF98E20E043D700501749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TB2V3PEYJ;
+				INFOPLIST_FILE = SweetSmashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bufni.SweetSmashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SweetSmash.app/SweetSmash";
+			};
+			name = Release;
+		};
+		91FCF99020E043D700501749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TB2V3PEYJ;
+				INFOPLIST_FILE = SweetSmashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bufni.SweetSmashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetSmash;
+			};
+			name = Debug;
+		};
+		91FCF99120E043D700501749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4TB2V3PEYJ;
+				INFOPLIST_FILE = SweetSmashUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bufni.SweetSmashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SweetSmash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FCF95620E043D600501749 /* Build configuration list for PBXProject "SweetSmash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FCF98720E043D700501749 /* Debug */,
+				91FCF98820E043D700501749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FCF98920E043D700501749 /* Build configuration list for PBXNativeTarget "SweetSmash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FCF98A20E043D700501749 /* Debug */,
+				91FCF98B20E043D700501749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FCF98C20E043D700501749 /* Build configuration list for PBXNativeTarget "SweetSmashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FCF98D20E043D700501749 /* Debug */,
+				91FCF98E20E043D700501749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FCF98F20E043D700501749 /* Build configuration list for PBXNativeTarget "SweetSmashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FCF99020E043D700501749 /* Debug */,
+				91FCF99120E043D700501749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FCF95320E043D600501749 /* Project object */;
+}
